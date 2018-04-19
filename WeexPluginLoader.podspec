@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    Weex plugin 
                    DESC
 
-  s.homepage     = "https://github.com/kfeagle/WeexPluginLoader.git"
+  s.homepage     = "https://github.com/NikoT/WeexPluginLoader"
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
   #s.source =  { :path => '.' }
-  s.source       = { :git => 'https://github.com/kfeagle/WeexPluginLoader.git', :tag => '0.0.1.5' }
+  s.source       = { :git => 'https://github.com/NikoT/WeexPluginLoader', :tag => '0.0.1.5' }
   #s.source       = { :git => 'https://github.com/kfeagle/WeexPluginLoader.git' }
   s.source_files  = "WeexPluginLoader.framework/Headers/*.{h,m,mm}"
   s.ios.preserve_paths      = 'WeexPluginLoader.framework'
